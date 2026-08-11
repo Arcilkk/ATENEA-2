@@ -12,6 +12,7 @@ import Productos from './pages/Productos';
 import NotFound from './pages/NotFound';
 import Usuarios from './pages/Usuarios';
 import UsuarioDetalle from './pages/UsuarioDetalle';
+import UsuarioCard from './components/UsuarioCard';
 
 function App(){
   return(

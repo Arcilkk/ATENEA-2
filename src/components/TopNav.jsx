@@ -1,6 +1,6 @@
 import'./TopNav.css';
 function TopNav(){
-    const usuarioActual = "Jeison Narvaez"
+    const usuarioActual = "Juan Perez"
     return(
         <header className='topnav'>
             <div className='buscador'>

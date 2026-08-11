@@ -1,0 +1,51 @@
+.usuario-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.usuario-info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.usuario-info h3 {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.usuario-rol {
+    margin: 0;
+    color: #666;
+    font-size: 14px;
+}
+
+.usuario-badge {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.badge-activo {
+    background-color: #2ecc71; /* verde */
+}
+
+.badge-inactivo {
+    background-color: #e74c3c; /* rojo */
+}
+
+.usuario-acciones button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 6px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.usuario-acciones button:hover {
+    background-color: #2980b9;
+}
