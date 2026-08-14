@@ -2,8 +2,11 @@ import { useState } from "react";
 
 export default function ContadorVentas(){
 
-    const [ventas, setVentas] = useState(0);
-    
+    const [ventas, setVentas] = useState(()=>{
+        const datoGuardado = localStorage.getItem('ventas');
+        return datoGuardado ? parseInt(datoGuardado) : 0;
+    });
+
     const registrarVenta = () => {
         setVentas(ventas + 1);
     }
